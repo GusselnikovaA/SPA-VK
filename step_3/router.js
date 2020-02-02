@@ -1,4 +1,4 @@
-import Controller from './controller.js';
+import Controller from 'controller.js';
 
 function getRouteInfo() {
   const hash = location.hash ? location.hash.slice(1) : '';

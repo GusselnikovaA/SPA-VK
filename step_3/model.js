@@ -5,7 +5,7 @@ export default {
       VK.init({
         apiId: appId
       });
-      
+      VK.UI.button('vk__button');
 
       VK.Auth.login(response => {
         if (response.session) {
